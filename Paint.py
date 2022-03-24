@@ -47,14 +47,42 @@ def circle(start, end):
     turtle.circle(10)
 
 
+"""RAVR: 24/03/22 Rectangle creation"""
 def rectangle(start, end):
     """Draw rectangle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
 
+    turtle.forward(150)
+    turtle.left(90)
+    
+    turtle.forward(50)
+    turtle.left(90)
+    
+    turtle.forward(150)
+    turtle.left(90)
+    
+    turtle.forward(50)
+    turtle.left(90)
 
+"""RAVR: 24/03/22 Triangle creation"""
 def triangle(start, end):
     """Draw triangle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    turtle.forward(100)  
+    turtle.left(120)
+    turtle.forward(100)
+ 
+    turtle.left(120)
+    turtle.forward(100)
+ 
+    turtle.done()
 
 
 def tap(x, y):
